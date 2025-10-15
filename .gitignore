@@ -1,4 +1,4 @@
 __pycache__/
-*.py[cod
-docker_compose]
+*.py[cod]
+docker_compose
 log/
