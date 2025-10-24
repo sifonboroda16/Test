@@ -23,7 +23,7 @@ except:
 print(v1)
 
 class Notification:
-    pass
+    priority = 'high'
 
 class Scheduler:
     pass
