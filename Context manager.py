@@ -24,6 +24,6 @@ print(v1)
 
 class Notification:
     priority = 'high'
-
+    prority = 'low'
 class Scheduler:
     pass
