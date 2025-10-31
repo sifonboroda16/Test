@@ -1,5 +1,4 @@
-def print_3():
-    print(3)
+
 
 def print_2():
     print(2)
