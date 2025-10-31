@@ -1,29 +1,11 @@
-class DefenderVector:
-    def __init__(self, __v):
-        self.__v = __v
+def print_3():
+    print(3)
 
-    def __enter__(self):
-        self.__temp = self.__v[:]     # <-- shallow copy списка
-        return self.__temp
+def print_2():
+    print(2)
 
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        if exc_type is None:
-            self.__v[:] = self.__temp # <-- присваивание через срез (commit)
-        return False
+def print_1():
+    print(1)
 
-v1 = [1, 2, 3]
-v2 = [2, 3, 3]
-try:
-    with DefenderVector(v1) as dv:
-        for i, a in enumerate(dv):
-            dv[i] += v2[i]
-except:
-    print('Ошибка')
-
-print(v1)
-
-class Notification:
-    priority = 'high'
-    prority = 'low'
-class Scheduler:
-    pass
+def print_hello_world():
+    print('hello world')
