@@ -1,5 +1,5 @@
 def print_32():
-    print(32)
+    print(3)
 
 def print_2():
     print(2)
